@@ -1,0 +1,50 @@
+.hourlyContainer{
+    display: flex;
+    gap: 1.8rem;
+    padding: 1rem 2rem;
+    max-width:50rem ;
+    overflow: scroll;
+}
+
+.hour{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    background-color:rgba(0,0,0,0.3);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.hour>span:nth-child(1){
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hour>span:nth-child(2){
+    font-size: 30px;
+    color: yellow;
+}
+
+.hour>span:nth-child(3){
+    font-size: 23px;
+    color: yellow;
+}
+
+.dateandhour{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.dateandhour>span{
+    font-size: 12px;
+    font-weight: 200;
+    align-self: center;
+}
+
+.hourlyContainer::-webkit-scrollbar {
+    display: none;
+  }

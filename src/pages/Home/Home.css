@@ -1,0 +1,43 @@
+.Home {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0093e9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s all ease;
+  }
+  
+  #Clear{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../../assests/image4.jpg")
+  }
+
+  #Haze{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../../assests/image2.jpg")
+  }
+
+  #Clouds{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../../assests/image1.jpg")
+  }
+
+  #Rain{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../../assests/image3.jpg")
+  }
+
+  #Mist{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../../assests/image5.jpg")
+  }
+
+  #Smoke{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../../assests/image5.jpg")
+  }
